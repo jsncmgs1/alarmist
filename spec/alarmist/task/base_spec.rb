@@ -1,5 +1,3 @@
-require 'spec_helper'
-
 module FakeModule; end
 class FakeModule::FooTask < Alarmist::Task::Base; end
 class FakeModule::FooAlarm < Alarmist::Alarm::Base; end
